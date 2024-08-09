@@ -25,5 +25,24 @@ public class Main {
         if (speed1 <= 60) {
             System.out.println("Если скорость " + speed1 + ", можно ездить спокойно.");
         }
+
+        int agePerson = 3;
+        if (agePerson > 2 && agePerson < 6) {
+            System.out.println("Если возраст человека равен " + agePerson + ", то ему нужно ходить в детский сад.");
+        }
+        int agePerson1 = 8;
+        if (agePerson1 > 7 && agePerson1 < 17) {
+            System.out.println("Если возраст человека равен " + agePerson1 + ", то ему нужно ходить в школу.");
+        }
+        int agePerson2 = 20;
+        if (agePerson2 >= 18 && agePerson2 <= 24) {
+            System.out.println("Если возраст человека равен " + agePerson2 + ", то его место в университете.");
+        }
+        int agePerson3 = 25;
+        if (agePerson3 > 24) {
+            System.out.println("Если возраст человека равен " + agePerson3 + ", то ему пора ходить на работу.");
+        }
+
+
     }
 }
