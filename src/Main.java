@@ -55,5 +55,18 @@ public class Main {
         if (ageChaild2 > 14) {
             System.out.println("Если возраст ребенка равен " + ageChaild2 + ", то можно кататься на атракционе без сопровождения взрослого.");
         }
+
+        int standingPlace = 38;
+        int sittingPlace = 55;
+        int allPlace = standingPlace + sittingPlace;
+        if (allPlace < 102) {
+            System.out.println(" В вагоне есть свободные места");
+        }
+        if (standingPlace < 42) {
+            System.out.println("В вагоне есть стоячие места");
+        }
+        if (sittingPlace < 60) {
+            System.out.println("В вагоне есть сидячие места");
+        }
     }
 }
