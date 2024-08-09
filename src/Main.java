@@ -17,6 +17,13 @@ public class Main {
             System.out.println(" На улице " + gradus1 + " градусов, на улице холодно, нужно надеть шапку.");
         }
 
-
+        int speed = 70;
+        int speed1 = 50;
+        if (speed > 60) {
+            System.out.println("Если скорость " + speed + ", придется заплатить штраф.");
+        }
+        if (speed1 <= 60) {
+            System.out.println("Если скорость " + speed1 + ", можно ездить спокойно.");
+        }
     }
 }
