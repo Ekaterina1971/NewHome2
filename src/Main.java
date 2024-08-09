@@ -71,6 +71,23 @@ public class Main {
             System.out.println("В вагоне есть сидячие места");
         }
 
-
+        int one = 1;
+        int two = 2;
+        int three = 3;
+        if (one > two && one > three) {
+            System.out.println(" Число one является большим.");
+        } else {
+            System.out.println(" Число one не является большим.");
+        }
+        if (two > one && two > three) {
+            System.out.println(" Число two является большим.");
+        } else {
+            System.out.println(" Число two не является большим.");
+        }
+        if (three > one && three > two) {
+            System.out.println(" Число three является большим.");
+        } else {
+            System.out.println(" Число three не является большим.");
+        }
     }
 }
