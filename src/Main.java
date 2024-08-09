@@ -61,6 +61,8 @@ public class Main {
         int allPlace = standingPlace + sittingPlace;
         if (allPlace < 102) {
             System.out.println(" В вагоне есть свободные места");
+        } else {
+            System.out.print("Вагон забит. Мест нет");
         }
         if (standingPlace < 42) {
             System.out.println("В вагоне есть стоячие места");
@@ -68,5 +70,7 @@ public class Main {
         if (sittingPlace < 60) {
             System.out.println("В вагоне есть сидячие места");
         }
+
+
     }
 }
