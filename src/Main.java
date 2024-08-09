@@ -43,6 +43,17 @@ public class Main {
             System.out.println("Если возраст человека равен " + agePerson3 + ", то ему пора ходить на работу.");
         }
 
-
+        int ageChaild = 4;
+        if (ageChaild < 5) {
+            System.out.println("Если возрат ребенка равен " + ageChaild + ", то ему нельзя кататься на атракицоне.");
+        }
+        int ageChaild1 = 7;
+        if (ageChaild1 > 5 && ageChaild < 14) {
+            System.out.println("Если возраст ребенка равен " + ageChaild1 + ", то он может кататься на атракционе в сопровождении взрослого.");
+        }
+        int ageChaild2 = 15;
+        if (ageChaild2 > 14) {
+            System.out.println("Если возраст ребенка равен " + ageChaild2 + ", то можно кататься на атракционе без сопровождения взрослого.");
+        }
     }
 }
